@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-// Функция для загрузки постов
+
 const fetchPosts = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     if (!res.ok) throw new Error('Ошибка при загрузке');
