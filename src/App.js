@@ -1,12 +1,16 @@
 
 import './App.css';
-import ToggleButton from "./components/ToggleButton";
+import ReduxPosts from "./components/ReduxPosts";
+import ZustandPosts from "./components/ZustandPosts";
+import QueryPosts from "./components/QueryPosts";
+
 
 function App() {
   return (
     <div className="App">
-
-      <ToggleButton />
+      <ReduxPosts/>
+       <ZustandPosts/>
+       <QueryPosts/>
     </div>
   );
 }
